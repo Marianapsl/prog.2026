@@ -1,0 +1,19 @@
+[project]
+name = "prog-2026"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Marianapsl", email = "marianapetrasl@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "streamlit>=1.66.1",
+]
+
+[project.scripts]
+prog-2026 = "prog_2026:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
